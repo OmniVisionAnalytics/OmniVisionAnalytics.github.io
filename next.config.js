@@ -1,6 +1,8 @@
-// next.config.js
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: 'export',
-  images: { unoptimized: true }, // needed for GitHub Pages
-  basePath: '/omnivisionanalytics.github.io', // match your GitHub repo name
+  images: { unoptimized: true },
+  basePath: '', // or '' if you're deploying to a user/organization page
 };
+
+module.exports = nextConfig;
