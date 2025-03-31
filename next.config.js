@@ -2,5 +2,5 @@
 module.exports = {
   output: 'export',
   images: { unoptimized: true }, // needed for GitHub Pages
-  basePath: '/omnivision-analytics', // match your GitHub repo name
+  basePath: '/omnivisionanalytics.github.io', // match your GitHub repo name
 };
